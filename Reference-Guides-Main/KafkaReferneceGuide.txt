@@ -1,0 +1,111 @@
+Apache Kafka
+
+- Capable of handling millions of data or messages per second.
+- Works as mediator between your source and target system
+- Do have extremely high performance
+- Netflix, Uber, Walmart, etc....
+- Able to maintain the fault tolerance
+
+Applications
+
+- Linkedin
+- Netflix
+- Uber
+- Twitter
+- Airbnb
+- Agoda
+- box
+- ByteDance
+- Coursera
+- Datadog
+- Pininterest
+- Hackerrank
+- New Relic
+- MailChimp
+
+
+Industries
+
+- Banking/Financial
+- Automative/Logistic
+- IoT Devices
+- Retail/Travel/Mobile Applications
+- Medical
+
+UseCases
+
+- Messaging
+- Website Activity Tracking
+- Metics
+- Log Aggregation
+- Stream Processing
+- Event Sourcing
+
+When not to Use Kafka?
+
+- When you have limited amount of data to be processed
+- When you need to use a Simple Task Queue
+- Don't use it as Database
+
+Benefits
+
+- Reliable
+- Scalable
+- Durable
+- Performance
+
+Basics
+
+- Kafka run as a cluster on one or more servers.
+- Stores streams of records in categories which are known as Topics.
+- Each record will consist a key, message and timestamp.
+
+Terminology
+
+- Topics
+	Category to which your records are published
+	Multiple Subscribers
+
+- Partitions
+	A topic is divided into several parts, and that division is known as partitions of topic.
+
+- Brokers
+	Kafka Cluster is comprised of one or more severs, and these servers we do call as Brokers or Kafka Brokers or Bootstrap Brokers
+	It's your broker only which will hold several topics with their respective multiple partitions.
+	Zookeeper is used for managing and coordinating your Kafka Brokers
+
+- Topic Replication
+	Replication Factor
+
+- Producers
+	which publishes or writes data to topic within different partitions
+	- Message Keys
+	- Acknowledgement
+
+- Consumer
+	the one who consumes the data from the Kafka Cluster
+
+- Consumer Group
+	Group of multiple consumers
+	- Group Coordinator
+	- Consumer Coordinator
+
+- Consumer Offsets
+	
+- Delivery Semantics
+	- At most once
+	- At least once
+	- Exactly Once
+
+- Zookeeper
+	- used to store information about the Kafka cluster and details of consumer clients
+	- manages the brokers by maintaining list of them
+	- responsible for choosing leader for the partitions
+
+Kafka API's
+
+- Admin API
+- Producer API
+- Consumer API
+- Kafka Streams API
+- Kafka Connect API

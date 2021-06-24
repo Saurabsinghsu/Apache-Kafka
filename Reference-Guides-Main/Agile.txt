@@ -1,0 +1,273 @@
+SDLC (Software Development Lifecycle)
+
+- high quality software
+- meeting customer expectations
+- getting delivered under timelines
+- staying within cost estimated
+
+Waterfall Model - Linear Model, Sequential Model
+
+
+Agile Model (Iterative and Incremental Model)
+	- Each iteration will involve our cross functional teams
+		planning - req. analysis - design - coding - testing - release
+	- at the end each iteration, working product is delivered to the customer
+
+
+Timeline Tracing the history and evolution of Agile from its roots in 1968
+
+1968 - Conway's Law
+1976 - Something resembling to Unit Testing
+1977 - make
+1980 - Incremental Development
+1980 - Information Radiators
+1986 - Spiral Model
+1988 - Timebox
+1990 - Refactoring
+1990 - black box testing
+1993 - Standup Meetings
+1993 - Scrum
+1995 - Sprint
+1996 - Extreme Programming (XP)
+2000 - Mock Objects
+2001 - Agile Manifesto
+2002 - TDD
+2003 - Lean
+2006 - BDD
+2007 - Retrospectives
+2007 - Kanban
+
+
+Agile Manifesto
+
+4 Values
+- Individuals and Interactions Over Processes and Tools
+- Working Software Over Comprehensive Documentation
+- Customer Collaboration over Contract Negotiations
+- Responding to Change Over a following a plan
+
+12 Principles
+- Customer Satisfaction through early and continuous software delivery
+- Accommodate changing requirements throughout the development process
+- Frequent Delivery of Working Software
+- Collaboration between the business stakeholders and developers throughout the project
+- Support, trust and motivate the people around/involved
+- Enable Face to face interactions
+- Working software is the primary measure of progress
+- Agile processes to support a consistent development pace
+- Attention to technical detail and design, enhances agility
+- Simplicity
+- Self Organising Teams encourage great architecture, requirements and designs
+- Regular reflections on how to become more effective
+
+
+Myths about Agile
+
+- Agile has no planning
+- Agile has no documentation	
+- There is no end to Development
+- There is no long term planning
+- Daily standup are used for problem solving
+- There are no requirements needed
+- There is no focus on quality
+- Agile is Faster
+- Agile is Better
+- Agile has no structure
+
+Scrum
+
+- Developed by Jeff and Ken
+
+- Values
+	- Commitment
+	- Courage
+	- Focus
+	- Openness
+	- Respect 
+
+- Principles
+	- Empirical Process Control
+		- Transparency
+		- Inspection
+		- Adaption
+	- Self Organisation
+	- Collaboration
+		- Awareness
+		- Articulation
+		- Appropriation
+	- Value Based Prioritisation
+	- Time Boxing
+	- Iterative Development
+
+- Roles
+	- Product Owner
+	- Scrum Master
+	- The Team
+
+- Artifacts
+	- Product Backlog
+	- Sprint Backlog
+	- Increment
+	- Definition of Done
+
+- Events
+	- Sprint
+	- Sprint Planning
+	- Daily Scrum/Standup
+	- Sprint Review
+	- Sprint Retrospective
+
+- Scrum Lifecycle
+	1. Establish the product backlog
+	2. The product owner and the team will conduct Sprint Planning. In the first phase of sprint planning, they will identify the items(Sprint Backlog) which they will target in current sprint from product backlog. In the second part, they will craft the plan to carry forward the Sprint.
+	3. As the sprint is progressing, the team will put their efforts to complete the items specified in Sprint Backlog.
+	4. On daily basis, they will connect/coordinate with each other to share the progress. And this daily connect is known as Daily Standup.
+	5. At then end of Sprint, the team will deliver the selected Product backlog items. Post delivering, team will hold a Sprint Review meeting, to demonstrate the product increment which have been created to client/stakeholders. And from Spring review meeting, we will get their respective feedback. The team along with your Product Owner and SM, will setup another meeting, which is known as Retrospective, to discuss on how Sprint progressed so far, and will look for any improvement areas, which they can adapt in order to improve the delivery in following Sprint.
+	6. The team will repeat the steps 2-5, until desired outcome(DoD) of product have been met.
+
+
+- Agile Estimation
+	- Story Points (1,3,5,8,.....)
+	- T-shirt Sizing (S,XL,M,L)
+	- Time Buckets (
+	- Numerical Sizing (1,2,3,4,....)
+
+- Planning Poker
+	- Product owner will explain the task/story to the team, and further he will ask questions, if there is any issues in understanding that. If there are any questions, product owner will answer them and move forward.
+	- Once the team got understanding of story, they will compare that with reference.
+	- Each team member will assign/come up with size of story.
+	- They will show their respective selected size to everyone.
+	- If the difference/variance is less, then will assign the points and move ahead.
+	- But if, there are conflicts, then each team member will explain the strategy behind the number the number they assigned.
+	- Then product owner will clarify their misunderstandings/doubts, if there are any.
+	- Team will repeat the steps until team is getting less variance, for that specific task/story upto 3 rounds.
+	- If even after 3 rounds, the variance is high, then they will assign the highest number and move ahead.
+
+
+- TShirt Sizing
+	- Make the cards for S,M,L,XL,etc.
+	- Product owner will explain the task/story to the team, and further he will ask questions, if there is any issues in understanding that. If there are any questions, product owner will answer them and move forward.
+	- Each and every team member will assign a size to story.
+	- Whole team will raise their cards simultaneously.
+	- The team will discuss differences, if there are any.
+	- The product owner will explain the story further and clarify the misunderstandings if any.
+	- Then team will go back to sizing step, until they are agreeing with one size.
+	- Team will place the stories as per their bucket sizes.
+	
+--------
+Levels of Planning in Agile
+
+- Vision
+- Roadmap
+- Release Planning
+- Iteration Planning
+- Daily Planning
+
+Define the Product Vision Statement
+- Developing the agile product objective
+	- Key Product Goals
+	- Customer
+	- Need
+	- Competition 
+- Creating a draft agile vision statement
+	- Product Quality
+	- Maintenance needs
+	- Longevity
+	- Use Present Tense
+	- Avoid making use of General Terms and Technological Specifications
+- Validating and revising the agile vision statement
+	- Review it against a quality checklist
+		- Is this vision statement clear?
+		- Is this vision statement focused?
+		- Is this vision statement meant for internal audience?
+		- Does the statement provide a compelling description of how the product meets customer needs?
+		- Does it describe all the possible outcomes?
+		- Is this Product/Project Vision Statement is compelling?
+	- When all answers are yes, move on to reviewing this statement with others
+		- Project Stakeholders
+		- Your team
+		- Scrum Master
+		- Agile Mentor
+	- Based on their feedback, you may need to review and revise the vision statement until project stakeholders, team and SM fully understand the statement
+- Finalise your Agile Vision Statement
+
+-------
+
+Kanban
+
+- Visualise the Workflow
+- Limit Work in Progress
+- Manage Flow
+- Make Process Policies Explicit
+- Feedback Loops
+- Improve Collaboratively
+
+Extreme Programming
+
+- Emphasis on continuous feedback from the customer
+- Short Iterations
+- Coding and Testing Frequently
+- Eliminate the defects at early stage
+- Keep the customer involved throughout the development process
+- Delivering the working product to customer frequently
+
+Extreme Programming Involves
+
+- Writing the unit test cases before programming
+- The tests should be automated
+- Integrate and test your system multiple times a day
+- Keeping your customer involved all the time and obtain constant feedback
+- Minimum working system should be deployed to prod and get it upgraded when needed
+- Pair Programming
+
+
+--------
+
+Agile Metrics
+
+- Sprint Burndown
+- Release Burndown
+- Velocity
+
+Information Radiators
+
+
+------------
+
+SAFe (Scaled Agile Framework)
+
+SAFe Levels
+
+- Team Level
+- Program Level
+- Portfolio Level
+
+Core Values
+- Alignment
+- Built in Quality
+- Transparency
+- Program Execution
+
+Competencies
+- Lean Agile Leadership
+- Continuous Learning Culture
+- Agile Product Delivery
+- Team and Technical Agility
+- Enterprise Solution Delivery
+- Lean Portfolio Management
+- Organisational Agility
+
+SAFe House of Lean
+
+Goal - Value
+
+Pillars-
+	- Respect for people
+	- Flow
+	- Innovation
+	- Relentless Improvement
+
+Foundation
+	- Lean Agile Leadership
+
+
